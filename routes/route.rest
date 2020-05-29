@@ -1,0 +1,12 @@
+Send Request
+
+GET http://localhost:3000/subscribers
+
+send request
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+{
+    "name":"Amazing person",
+    "subscrebedToChannel": "Web Dev"
+}
